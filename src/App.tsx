@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,9 +6,9 @@ function App() {
   return (
     <>
       <div>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+        <h1 className="text-3xl font-bold underline">
+          Hello world!
+        </h1>
       </div>
       <h1>Vite + React</h1>
       <div className="card">
